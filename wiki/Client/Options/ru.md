@@ -1,18 +1,18 @@
-# Options
+# Опции
 
-![Options menu](img/options_basic-RU.jpg "Меню опций \(боковая панель слева\)")
+![Меню опций](img/options_basic-RU.jpg "Меню опций \(боковая панель слева\)")
 
 В главном меню нажмите `Options` или `O` (или `Ctrl` + `O`, что работает практически на любом экране), чтобы открыть боковую панель опций и изменить доступные опции в osu! Открыв меню опций, вы можете ввести текст для поиска определенной настройки. Если поисковый запрос не дал результатов, текст в строке поиска будет затенен.
 
 При изменении параметра, имеющего значение по умолчанию, серая вертикальная полоса слева будет светиться желтым цветом для этого параметра. Если нажать на нее, значение будет возвращено к значению по умолчанию.
 
-## General
+## Общее
 
-![General icon](img/general-RU.jpg "General icon")
+![Общее](img/general-RU.jpg "Общее")
 
 This section is about your account, language settings, and updates for osu!
 
-### Sign-in
+### Вход
 
 If you are not signed in to the game client, it will automatically open the options menu on start-up, prompting you to sign in. You can ignore this by pressing `Esc`, clicking on the back button, or navigating to the song selection screen. By not signing in, the game client will mark you as a "Guest" and you will not be able to fetch online scores, submit scores, or play [Multi](/wiki/Client/Interface/Multiplayer).
 
@@ -48,15 +48,14 @@ If you click on the `Logged in as {username}` prompt, it will display a menu wit
 
 You can access this menu by clicking on your player card where available.
 
-### Language
-
+### Язык и шрифт
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
 | `Select language` | Display a list of languages to select. | Dropdown |  |
 | `Prefer metadata in original language` | In the song select screen, beatmaps will display their original or untranslated metadata, if available. | Checkbox | `Disabled` |
 | `Use alternative font for chat display` | Uses the old font (Tahoma) instead of the current font (Aller) in the [chat console](/wiki/Client/Interface/Chat_console). | Checkbox | `Disabled` |
 
-### Updates
+### Обновления
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -74,13 +73,13 @@ If you open the dropdown list for `Release stream`, you will be presented with t
 | `Beta` | Dev build - gets new features early, but possibly buggier. |
 | `Cutting Edge (Experimental)` | Dev build - gets new features even earlier, but possibly significantly buggier. |
 
-## Graphics
+## Графика
 
 ![Graphics icon](img/graphics.jpg "Graphics icon")
 
 This section is about the appearance of your game client, parts of the interface and video settings.
 
-### Renderer
+### Обработчик графики
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -112,7 +111,7 @@ If you open the dropdown list for `Frame Limiter`, you will be presented with th
   - This option is **not recommended**. Using the `Unlimited (gameplay)` option can lead to stutters.
   - Using the `Optimal` option instead offers imperceivable changes in system (input to output) latency when compared to `Unlimited (gameplay)`.
 
-### Layout
+### Параметры экрана
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -125,7 +124,7 @@ If you open the dropdown list for `Frame Limiter`, you will be presented with th
 
 - If `Fullscreen mode` is disabled, `Running without fullscreen mode will increase your input latency!` will appear underneath it.
 
-### Detail Settings
+### Детализация
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -138,7 +137,7 @@ If you open the dropdown list for `Frame Limiter`, you will be presented with th
 | `Softening filter` | Adjusts the shaders to be less flashy. This will automatically enable `Shaders`. | Checkbox | `Disabled` |
 | `Screenshot format` | Sets the screenshot file format. | Dropdown | `JPEG (web friendly)` |
 
-### Main Menu
+### Главное меню
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -159,19 +158,19 @@ If you open the dropdown list for `Seasonal backgrounds`, you will be presented 
 | `Never` | You will never see seasonal backgrounds, and defaults will be used in all cases. |
 | `Always` | You will always have the current season's backgrounds. |
 
-### Song Select
+### Список песен
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
 | `Show thumbnails` | Display a preview image of each beatmap's background. This requires the selected skin's version to 2.2+. | Checkbox | `Enabled` |
 
-## Gameplay
+## Игра
 
 ![Gameplay icon](img/gameplay.jpg "Gameplay icon")
 
 This section is about settings that affect gameplay.
 
-### General
+### Общее
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -207,27 +206,27 @@ If you open the dropdown list for `Score meter type`, you will be presented with
 | `Colour` | Use coloured blocks to display hit timing. (osu!catch will always use this if `Hit error` is selected.) |
 | `Hit error` | Use a meter to display hit timing. This shows if the player had hit too early or too late. |
 
-### Song Select
+### Список песен
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
 | `Display beatmaps from` | This adjusts the **lowest** difficulty beatmap that will be displayed in song select. | Slider | `0 stars` |
 | `up to` | This adjusts the **highest** difficulty beatmap that will be displayed in song select. | Slider | `10+ stars` |
 
-## Audio
+## Звук
 
 ![Audio icon](img/audio.jpg "Audio icon")
 
 This section is about audio related options.
 
-### Devices
+### Устройства
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
 | `Output device` | Select the preferred output device for audio. (Options given are based on what your computer reports.) | Dropdown | `Default` |
 | `Audio compatibility mode` | Uses the legacy audio engine which has higher latency but is more compatible. | Checkbox | `Disabled` |
 
-### Volume
+### Громкость и звук
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -238,7 +237,7 @@ This section is about audio related options.
 
 The master, music, and effect volume can be changed elsewhere by pressing `Alt` and scrolling up or down or by pressing `Alt` and pressing `Up` or `Down`.
 
-### Offset Adjustment
+### Универсальный оффсет
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -248,13 +247,13 @@ The master, music, and effect volume can be changed elsewhere by pressing `Alt` 
 - For details about the offset wizard, see [Offset Wizard](/wiki/Client/Options/Offset_Wizard).
 - For details on using the offset wizard, see [How to use Offset Wizard](/wiki/Guides/How_to_use_the_Offset_Wizard).
 
-## Skin
+## Скин
 
 ![Skin icon](img/skin.jpg "Skin icon")
 
 This section is about skin related things.
 
-### Skin
+### Скин
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -271,13 +270,13 @@ This section is about skin related things.
 | `Automatic cursor size` | Automatically adjusts the cursor size based on the circle size of the beatmap. | Checkbox | `Disabled` |
 | `Use combo colour as tint for slider ball` | Slider balls will use the current combo colour (usually transparent). Requires skin support. | Checkbox | `Enabled` |
 
-## Input
+## Управление
 
 ![Input icon](img/input.jpg "Input icon")
 
 This section is about input peripherals.
 
-### Mouse
+### Мышь
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -302,21 +301,21 @@ If you open the dropdown list for `Confine mouse cursor`, you will be presented 
 | `Only when fullscreen` | Only prevent the mouse from leaving the game client when fullscreen (this also includes `Letterboxing`). |
 | `Always` | Always prevent the mouse from leaving the game client in any resolution. |
 
-### Keyboard
+### Клавиатура
 
 | Name | Description | Type |
 | :-- | :-- | :-- |
 | `Change keyboard bindings` | Displays a dialog which allows you to see or change your keyboard bindings. See [Keyboard Bindings](/wiki/Client/Options/Keyboard_bindings) for more details. | Button |
 | `osu!mania layout` | Displays a dialog which allows you to see or change your osu!mania bindings. See [osu!mania layout](/wiki/Game_mode/osu!mania) for more details. | Button |
 
-### Other
+### Другое
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
 | `OS TabletPC support` | Improves compatibility with graphic tablets and tablet PCs. | Checkbox | `Disabled` |
 | `Wiimote/TaTaCon Drum support` | Enable support for Nintendo's Wii Taiko Drum controller and Wiimotes. Pair device via Bluetooth before enabling. | Checkbox | `Disabled` |
 
-## Editor
+## Редактор
 
 ![Editor icon](img/editor.jpg "Editor icon")
 
@@ -324,7 +323,7 @@ This section is about the [beatmap editor](/wiki/Client/Beatmap_editor).
 
 These options only affect while working inside the beatmap editor or in test mode (test playing a beatmap).
 
-### General
+### Общее
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -337,13 +336,13 @@ These options only affect while working inside the beatmap editor or in test mod
 
 These options can be manually overwritten by using the `View` menu in the beatmap editor.
 
-## Online
+## Онлайн
 
 ![Online icon](img/online.jpg "Online icon")
 
 This section is about chat, spectators, multi, and osu!direct.
 
-### Alerts and Privacy
+### Оповещения и личные данные
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -359,7 +358,7 @@ This section is about chat, spectators, multi, and osu!direct.
 | `Show notification popups when friends change status` | Display a notification, whenever your friend goes online or offline. | Checkbox | `Enabled` |
 | `Allow multiplayer game invites from all users` | Allow multi game invites from anyone. Disabling this will limit multiplayer invites to friends only. | Checkbox | `Enabled` |
 
-### Integration
+### Интеграция
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -369,7 +368,7 @@ This section is about chat, spectators, multi, and osu!direct.
 | `Automatically start osu!direct downloads` | For [osu!supporters](/wiki/osu!supporter) only. When spectating or multiplaying, the beatmap will be downloaded automatically. | Checkbox | `Enabled` |
 | `Prefer no-video downloads` | For [osu!supporters](/wiki/osu!supporter) only. osu!direct downloads will be confined to no-video versions of beatmaps. | Checkbox | `Disabled` |
 
-### In-Game Chat
+### Игровой чат
 
 | Name | Description | Type | Default |
 | :-- | :-- | :-- | :-- |
@@ -380,13 +379,13 @@ This section is about chat, spectators, multi, and osu!direct.
 | `Chat ignore list (space-separated list)` | Words you put here will be ignored. | Text | *(empty)* |
 | `Chat highlight words (space-separated list)` | Words you put here will be [highlighted](/wiki/Client/Interface/Chat_console/Highlight) in chat. | Text | *(empty)* |
 
-## Maintenance
+## Разное
 
 ![Maintenance icon](img/maintenance.jpg "Maintenance icon")
 
 This section is about beatmaps and updates.
 
-### General
+### Общее
 
 | Name | Description | Type |
 | :-- | :-- | :-- |
@@ -397,36 +396,36 @@ This section is about beatmaps and updates.
 
 At the bottom, the version number will be displayed. Clicking this will open the [changelog](/wiki/Changelog) for that version in your internet browser.
 
-### Debug
+### Отладка
 
-#### Build version
+#### Версия сборки
 
-See which build version the game client currently has and which type of build updates the game client receives. Clicking on this will direct you to the release notes using your preferred browser.
+Узнайте, какую версию сборки имеет клиент игры в данный момент и какой тип обновлений сборки получает клиент игры. Нажав на эту кнопку, вы перейдете к примечаниям к выпуску с помощью выбранного вами браузера.
 
-The builds are versioned using this versioning scheme:
+Сборки Нумеруются с помощью этой схемы версий:
 
 ```
 b{YYYY}{MM}{DD}.{revision}{type}
 ```
 
-- `{YYYY}` is the build year
-- `{MM}` is the build month
-- `{DD}` is the build day
-- `{revision}` is the build revision
-  - If there is no build revision number, the decimal point will be removed.
-- `{type}` is the build type
-  - If there is no build type value, assume it is `Stable`.
+- `{YYYY}` - год сборки
+- `{MM}` - месяц сборки
+- `{DD}` - день сборки
+- `{revision}` - ревизия сборки.
+  - Если номер ревизии сборки отсутствует, десятичная точка будет удалена.
+- `{type}` - тип сборки
+  - Если значение типа сборки отсутствует, считайте, что это `Stable`.
 
-## Trivia
+## Мелочи
 
 - If you type in a username but leave the password textbox empty, osu! will use that name when saving the score locally.
 - Opening the options sidebar will automatically trigger `osu! is up-to-date!`'s function (it will begin checking for updates).
 - The `Seasonal backgrounds` option was added after positive feedback was given to the osu!dev team.
   - More details: [main menu background changes](https://osu.ppy.sh/community/forums/topics/606931)
 
-### History
+### История
 
-- The old options screen was an actual screen that had tabs, buttons, and a dark pale blue background.
-- The old options screen also featured a skin selection screen that also allows you to preview live play of a beatmap in osu!.
-  - After the options screen was moved over to a sidebar, this screen was still accessible by opening a skin file.
-  - Access to this was later removed after skin previews and the live preview functions came to be.
+- Старый экран опций представлял собой актуальный экран с вкладками, кнопками и темно-бледно-голубым фоном.
+- На старом экране опций также присутствовал экран выбора скина, который также позволял просматривать живое воспроизведение битмапа в osu!
+  - После того как экран опций был перенесен на боковую панель, этот экран по-прежнему был доступен при открытии файла скина.
+  - Позже доступ к нему был удален после появления функции предварительного просмотра скинов и живого просмотра.
